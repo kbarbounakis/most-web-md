@@ -1,0 +1,37 @@
+{
+  "name": "most-web-md",
+  "version": "0.1.0",
+  "description": "Most Web Framework Markdown View Engine",
+  "homepage": "http://www.mostjs.com/xml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbarbounakis/most-web-md.git"
+  },
+  "keywords": [
+    "markdown",
+    "most",
+    "web",
+    "view",
+    "md"
+  ],
+  "author": {
+    "name": "Kyriakos Barbounakis",
+    "email": "k.barbounakis@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3 Clause"
+    }
+  ],
+  "dependencies": {
+    "pagedown": "^1.1.0"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "scripts": {},
+  "_id": "most-web-md@0.1.0",
+  "_from": "most-web-md@",
+  "bugs": {
+    "url": "https://github.com/kbarbounakis/most-web-md/issues"
+  }
+}
