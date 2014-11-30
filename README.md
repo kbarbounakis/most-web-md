@@ -3,4 +3,4 @@ most-web-md
 
 MOST Web Framework Markdown View Engine
 
-A markdown view engine as middleware of web application based on MOST Web Framework
+A markdown view engine as a middleware in web applications based on MOST Web Framework
