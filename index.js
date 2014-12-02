@@ -26,7 +26,7 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-var pagedown = require('pagedown'), fs = require('fs');
+var pagedown = require('pagedown'), fs = require('fs'), Extra = require('./pagedown-extra').Extra;
 /**
  * @class MarkdownEngine
  * Represents a view engine that may be used in MOST web framework applications.
@@ -84,6 +84,7 @@ MarkdownEngine.prototype.render = function(file, data, callback) {
                     * @type {Markdown.Converter|*}
                     */
                    var converter = new pagedown.Converter();
+                   Extra.init(converter);
                    var result = converter.makeHtml(data);
                    //return the converted HTML markup
                    callback(null, result);
